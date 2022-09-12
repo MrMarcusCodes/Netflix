@@ -1,0 +1,1232 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional //EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" style="margin-top:0;padding:0;margin:0;background-color:rgb(234, 234, 234);">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="format-detection" content="telephone=no">
+    <style type="text/css">
+      /* START ENVELOPE CSS */
+      @media (max-width: 500px) {
+        /* Gmail iOS hack */
+        u+.body .inbox-fix,
+        u+.body .content-shell-table,
+        u+.body .footer-shell-table,
+        u+.body .footer {
+          min-width: calc(100vw - 8.5vw) !important;
+        }
+        u+.body .content-padding {
+          padding-left: 0 !important;
+          padding-right: 0 !important;
+        }
+        .mobile-hide,
+        .ios-hide {
+          display: none !important;
+        }
+        .desktop-hide,
+        .desktop-hide img {
+          display: initial !important;
+        }
+        table.desktop-hide {
+          display: table !important;
+        }
+        .mobile-100w {
+          width: 100% !important;
+        }
+        .mobile-block {
+          display: block !important;
+        }
+        .mobile-left {
+          float: left !important;
+        }
+        .mobile-right {
+          float: right !important;
+        }
+        .mobile-center {
+          margin: 0 auto;
+          text-align: center !important;
+        }
+        .content-padding {
+          padding-left: 5.6% !important;
+          padding-right: 5.6% !important;
+        }
+        .inner-padding {
+          padding-left: 6% !important;
+          padding-right: 6% !important;
+        }
+        .outside-padding {
+          padding-left: 11.199999809265137% !important;
+          padding-right: 11.199999809265137% !important;
+        }
+      }
+      /*turn off border for iOS mobile*/
+      @media screen and (-webkit-min-device-pixel-ratio: 0) and (max-width: 500px) {
+        .container.main-border {
+          padding: 0 !important;
+        }
+        .content-shell {
+          border: none !important;
+        }
+      }
+      .hide,
+      .hide div,
+      .hide table,
+      .hide td,
+      .hide tr,
+      .hide a,
+      .hide img {
+        display: none !important;
+        width: 0 !important;
+        height: 0 !important;
+        max-height: 0 !important;
+        line-height: 0 !important;
+        mso-hide: all !important;
+        overflow: hidden !important;
+        visibility: hidden !important;
+      }
+      @media yahoo {
+        table {
+          border-collapse: collapse;
+          table-layout: fixed;
+        }
+        table table {
+          table-layout: auto;
+        }
+      }
+      * [data-term] {
+        border-bottom: none !important;
+        pointer-events: none !important;
+      }
+      .ii a {
+        color: inherit !important;
+        text-decoration: none !important;
+      }
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: none !important;
+        font-size: inherit !important;
+        font-family: inherit !important;
+        font-weight: inherit !important;
+        line-height: inherit !important;
+      }
+      table {
+        -wings-cellpadding: 0;
+        -wings-cellspacing: 0;
+        -wings-border: 0;
+        border-spacing: 0;
+      }
+      img {
+        -ms-interpolation-mode: bicubic;
+        border: none;
+        outline: none;
+        border-collapse: collapse;
+      }
+      .empty {
+        font-size: 0;
+        line-height: 0;
+      }
+      .desktop-hide,
+      .desktop-hide img,
+      .desktop-hide-max,
+      .desktop-hide-max img {
+        display: none;
+        mso-hide: all;
+      }
+      .content-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .inner-padding {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      .outer-radius {
+        border-radius: 8px;
+      }
+      .outside-padding {
+        padding-left: 40px;
+        padding-right: 40px;
+      }
+      .inner-radius {
+        border-radius: 4px;
+      }
+      .gmail-fix-no-inline {
+        display: none;
+        display: none !important;
+      }
+      a {
+        color: inherit;
+      }
+      a img {
+        border-style: none;
+      }
+      .hide-link a,
+      .iosnonlink a,
+      .hide-link {
+        text-decoration: none !important;
+        cursor: text;
+      }
+      body,
+      .container,
+      html {
+        margin-top: 0;
+      }
+      html,
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      /*Color Themes*/
+      body,
+      .container,
+      html,
+      .container-table {
+        background-color: #EAEAEA;
+      }
+      .content-shell-table {
+        background-color: #FFFFFF;
+      }
+      /*Below 4 classes dynamically assigned via envelope prop for border*/
+      .container.main-border {
+        padding: 19px 0 20px 0;
+      }
+      .container.main-border .content-shell {
+        border: 2px solid #EAECED;
+        border-radius: 8px;
+      }
+      .container.main-border .content-shell-table {
+        border-radius: 8px;
+      }
+      .container.main-border #gem-footer {
+        border-radius: 0 0 8px 8px;
+      }
+      /*envelope styles*/
+      /*more styles*/
+      .footer-shell-table {
+        background-color: #FFFFFF;
+      }
+      @media (max-width: 499px) {
+        .mobile-hide-max,
+        .ios-hide-max {
+          display: none !important;
+        }
+        .inbox-fix {
+          display: none;
+        }
+        .desktop-hide-max,
+        .desktop-hide-max img {
+          display: initial !important;
+        }
+        table.content-shell-table,
+        table.footer-shell-table,
+        .footer {
+          width: 100% !important;
+        }
+      }
+      /* END ENVELOPE CSS */
+      .gem-module-top-picks-cell-inner-table {
+        border-radius: 0px 0px 8px 8px;
+      }
+      .gem-module-top-picks-body-cell {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .gem-copy-table {
+        width: 100%;
+      }
+      table.gem-dual-buttons-table a {
+        text-decoration: none;
+      }
+      .gem-dual-buttons {
+        border-radius: 4px;
+        text-decoration: none;
+        width: 100%;
+      }
+      .gem-button-copy a {
+        padding: 13px 40px;
+        text-align: center;
+        display: inline-block;
+      }
+      @media(max-width: 500px) {
+        .gem-button-copy a {
+          padding: 13px 0px !important;
+          width: 100% !important;
+        }
+      }
+      .gem-header-copy-cell {
+        padding: 0 0 3px 20px;
+      }
+      .gem-component-image-cell img {
+        display: block;
+      }
+      @media only screen and (max-width: 500px) {
+        .gem-component-image-cell img {
+          width: 100% !important;
+          height: auto !important;
+        }
+      }
+      .gem-single-button.button-1-table {
+        width: 100%;
+      }
+      .gem-single-button.button-1-text.button-text-light {
+        color: #FFFFFF !important;
+      }
+      .gem-single-button.button-1-text.button-text-dark {
+        color: #000000 !important;
+      }
+      .gem-single-button.button-1-text a.button-text-light {
+        color: #FFFFFF !important;
+      }
+      .gem-single-button.button-1-text a.button-text-dark {
+        color: #000000 !important;
+      }
+      .gem-single-button.button-1-text {
+        moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        border-radius: 4px;
+        text-decoration: none !important;
+        text-align: center;
+        padding: 13px 0 13px 0;
+        width: 100%;
+      }
+      a.gem-single-button.button-1-link {
+        text-decoration: none !important;
+      }
+      @media(max-width: 500px) {
+        .gem-single-button-shell.button-mobile-flex {
+          width: 100%;
+        }
+        .gem-single-button-table {
+          width: 100% !important;
+          box-sizing: border-box;
+        }
+        .fixed-button-padding {
+          padding-left: 5.6% !important;
+          padding-right: 5.6% !important;
+        }
+      }
+      @media(max-width: 499px) {
+        .gem-title-row-td img {
+          width: 100%;
+          height: inherit;
+        }
+      }
+      @media(max-width: 500px) {
+        .gem-mobile-title-row-td {
+          display: block !important;
+        }
+        .gem-mobile-title-row-td img {
+          width: 100%;
+          height: inherit;
+        }
+      }
+      .gem-date-copy {
+        padding: 0 0 0px 8px;
+      }
+      .gem-date-copy {
+        padding: 0 0 0px 8px;
+        vertical-align: middle;
+      }
+      .gem-element-round-container {
+        padding: 2px 4px 2px 4px;
+        border-radius: 4px;
+      }
+      .amp-wrapper {
+        width: 500px;
+        margin: 0 auto;
+        font-family: NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;
+      }
+      @media (max-width: 500px) {
+        .amp-wrapper {
+          width: 100%;
+        }
+      }
+      .gem-footer .icon {
+        padding-right: 22px;
+      }
+      .gem-footer .icon.nonMember {
+        padding-bottom: 20px;
+      }
+      .gem-footer .address {
+        padding-bottom: 20px;
+      }
+      .gem-footer .footer-links {
+        padding-bottom: 20px;
+      }
+      #gem-footer .questions,
+      #gem-footer .footer-links a {
+        font-family: NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;
+        font-weight: 500;
+      }
+      .gem-footer .footer-links a {
+        font-family: NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+        text-decoration: underline;
+      }
+      #gem-footer .gem-legal,
+      .gem-legal a,
+      #gem-footer .hide-link,
+      #gem-footer .hide-link a,
+      #gem-footer .footer-links a,
+      #gem-footer .footer-links,
+      #gem-footer .questions,
+      #gem-footer .questions a {
+        color: #A9A6A6;
+      }
+      .gem-legal a {
+        text-decoration: underline;
+      }
+      #gem-footer .address {
+        color: #A9A6A6;
+        text-decoration: none !important;
+        cursor: text;
+      }
+      /*Conditional elements CSS*/
+      .gem-legal.legal-top,
+      .gem-legal.legal-bottom {
+        padding-bottom: 20px;
+      }
+      @media (max-width: 499px) {
+        .gem-footer {
+          width: 100% !important;
+        }
+      }
+      @media (max-width: 500px) {
+        .gem-footer .outer-padding {
+          padding: 0 5.6% !important;
+        }
+      }
+      .gem-module-top-picks-cell-inner-table {
+        border-radius: 0px 0px 8px 8px;
+      }
+      .gem-module-top-picks-body-cell {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .gem-module-top-picks-cell-inner-table {
+        border-radius: 0px 0px 8px 8px;
+      }
+      .gem-module-top-picks-body-cell {
+        padding-top: 20px;
+        padding-bottom: 20px;
+      }
+      .gem-module-cw-cell-inner-table {
+        border-radius: 0px 0px 8px 8px;
+      }
+      .gem-module-vert-body-cell {
+        padding-bottom: 24px;
+      }
+      @media(max-width: 500px) {
+        .gem-module-cw-body-cell {
+          padding-bottom: 20px !important;
+        }
+      }
+      .spacer {
+        font-size: 0;
+        line-height: 0;
+      }
+      @media (max-width: 500px) {
+        .mobile-block {
+          display: block !important;
+        }
+      }
+      /**** Global Font Styles ****/
+      .gem-h0,
+      .gem-h1,
+      .gem-h2,
+      .gem-h3,
+      .gem-h4,
+      .gem-h5,
+      .gem-h6,
+      .eyebrow,
+      .bold {
+        font-family: NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;
+        font-weight: 700;
+      }
+      .gem-p1,
+      .gem-p2,
+      .gem-legal,
+      .gem-p3,
+      .light,
+      .gem-p {
+        font-family: NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;
+        font-weight: 300;
+      }
+      .gem-h0 {
+        font-size: 44px;
+        line-height: 53px;
+        letter-spacing: -1px;
+      }
+      .gem-h1 {
+        font-size: 36px;
+        line-height: 43px;
+        letter-spacing: -1px;
+      }
+      .gem-h2 {
+        font-size: 30px;
+        line-height: 36px;
+        letter-spacing: -0.75px;
+      }
+      .gem-h3 {
+        font-size: 24px;
+        line-height: 29px;
+        letter-spacing: -0.5px;
+      }
+      .gem-h4 {
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: -0.35px;
+      }
+      .gem-h5 {
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: -0.2px;
+      }
+      .eyebrow {
+        font-size: 10px;
+        line-height: 13px;
+        letter-spacing: -0.25px;
+      }
+      .gem-p {
+        font-size: 15px;
+        line-height: 20px;
+      }
+      .gem-p1 {
+        font-size: 14px;
+        line-height: 18px;
+        letter-spacing: -0.25px;
+      }
+      .gem-p2 {
+        font-size: 12px;
+        line-height: 15px;
+        letter-spacing: -0.12px;
+      }
+      .gem-legal,
+      .gem-p3 {
+        font-size: 11px;
+        line-height: 14px;
+        letter-spacing: -0.1px;
+      }
+      .marker {
+        padding: 0px 7px 0px 7px;
+      }
+      @media only screen and (max-width: 480px) {
+        .marker {
+          padding: 5px 7px 5px 7px !important;
+        }
+      }
+      /* Ability to override mobile styles declared in content scripts */
+      @media screen {
+        @font-face {
+          font-family: NetflixSans-Medium;
+          src: url('https://assets.nflxext.com/us/email/fonts/NetflixSans-Medium-Opt.woff2');
+        }
+        @font-face {
+          font-family: NetflixSans-Light;
+          src: url('https://assets.nflxext.com/us/email/fonts/NetflixSans-Light-Opt.woff2');
+        }
+        @font-face {
+          font-family: NetflixSans-Bold;
+          src: url('https://assets.nflxext.com/us/email/fonts/NetflixSans-Bold-Opt.woff2');
+        }
+      }
+    </style>
+  </head>
+  <body class="body" style="margin-top:0;padding:0;margin:0;background-color:rgb(234, 234, 234);"> <!--/* 100% Size Container -->
+
+    <!-- Preview Text -->
+    <div class="hide" style="display:none;width:0;height:0;max-height:0;line-height:0;mso-hide:all;overflow:hidden;visibility:hidden;">Watch it again: The Flash, The Dragon Prince and The Blacklist
+
+      <!-- preview text
+      hack -->
+      <div class="hide" style="display: none; max-height: 0px; overflow:hidden;display:none;width:0;height:0;max-height:0;line-height:0;mso-hide:all;overflow:hidden;visibility:hidden;">&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌</div>
+    </div>
+
+    <!-- End Preview Text -->
+    <table class="container-table -important" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;background-color:rgb(234, 234, 234);">
+      <tbody>
+        <tr>
+          <td class="container " align="center" style="margin-top:0;background-color:rgb(234, 234, 234);"> <!--/* Hero + Content -->
+            <table class="content-shell-table" width="500" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;background-color:rgb(255, 255, 255);">
+              <tbody>
+                <tr>
+                  <td>
+
+                    <!--legal_content_footer-->
+                </tr> <!--/* Content -->
+                <tr>
+                  <td class="content-shell" align="center">
+                    <table class="gem-header-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-header-nflxLogo content-padding" style="padding-top:20px;padding-left:20px;padding-right:20px;" align="left">
+                            <table class="gem-header-nflxLogo" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td>
+                                    <a href="https://www.netflix.com/browse?lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=URL_HOME" target="_blank" style="color:inherit;">
+                                      <img alt="Netflix" src="https://assets.nflxext.com/us/email/gem/nflx.png" width="24" border="0" style="-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                  <td class="gem-header-copy-cell" style="padding:0 0 3px 20px;">
+                                    <table cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td id="gem-header-copy" class="gem-header-copy gem-h4" style="color: #000000;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:18px;line-height:22px;letter-spacing:-0.35px;">Smiles Davis,</td>
+                                        </tr>
+                                        <tr>
+                                          <td id="gem-header-copy" class="gem-header-copy gem-p1" style="color: #000000;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:14px;line-height:18px;letter-spacing:-0.25px;">Here's what you've watched</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="gem-component-image " width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-component-image-cell content-padding" align="center" style="padding-top:20px;padding-left:20px;padding-right:20px;">
+                            <img alt="Rewind.&nbsp;Replay. Rewatch." src="https://assets.nflxext.com/us/email/gem/hero/wia_hero_v4.png" width="460" border="0" style="border-radius:0px;box-shadow:none; max-width: 460px;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;">
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="gem-copy-table " align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="gem-copy gem-h1 content-padding" align="left" style="padding-top:20px; color:#221F1F;padding-left:20px;padding-right:20px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:36px;line-height:43px;letter-spacing:-1px;">Rewind.&nbsp;Replay. Rewatch.</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="gem-copy-table " align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="gem-copy gem-p1 content-padding" align="left" style="padding-top:20px; color:#221F1F;padding-left:20px;padding-right:20px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:14px;line-height:18px;letter-spacing:-0.25px;">Replay your favorite moments or watch these from the beginning.</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="gem-module-title-card-table" align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-module-top-picks-image-cell content-padding outer-radius" style="padding-top:20px;padding-left:20px;padding-right:20px;border-radius:8px;" align="center">
+                            <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-date-copy-cell _none" align="left" style="padding-top:20px; color:#221F1F;">
+                                    <table align="left" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <img class="image-icon-rewatchBlue" src="https://assets.nflxext.com/us/email/gem/icons/icon_rewatch_blue_v2.png" height="28" border="0" style="display:inline;height:28px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;">
+                                          </td>
+                                          <td class="gem-date-copy gem-h5" style="padding:0 0 0px 8px;vertical-align:middle;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;">Watch Again</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- Spacer -->
+                            <table width="100%" class="" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="spacer-1 spacer" style="padding: 8px 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- End Spacer -->
+                            <table class="gem-component-image " width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-component-image-cell _none" align="center" style="padding-top:0px;">
+                                    <a href="https://www.netflix.com/title/80027042?trkid=13710079&amp;MSG_TITLE=80027042&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_0_IMAGE" target="_blank" style="color:inherit;">
+                                      <img alt="The Flash" src="https://dnm.nflximg.net/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAAC6jBG1eZhWOEmfZEHkBAj7y9rOv8ciCDNkteqPJH6qK1UwGet_DOi4ckaDINpjP4nh9MH_Q9eiYp61GxBE7DRevk2R_yvDiZpvNROGMKJE98CcyQjSMCL-eO6RVum1A4ezk.jpg?r=885" width="460" border="0" style="border-radius:4px 4px 4px 4px;box-shadow:0 10px 15px -10px #000000; max-width: 460px;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table class="gem-copy-table " align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-copy gem-h3 _none" align="left" style="padding-top:16px; color:#221F1F;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:24px;line-height:29px;letter-spacing:-0.5px;">The Flash</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table class="gem-module-top-picks-cell-inner-table" align="center" width="100%" style="border-radius:0px 0px 8px 8px;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-module-vert-body-cell" style="padding-bottom:24px;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="gem-p1" align="left" style="color:#221F1F;padding-top:12px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:14px;line-height:18px;letter-spacing:-0.25px;"> <span class="gem-element-round-container" style="border:1px solid #E6E6E6;color:#808080;background-color:#E6E6E6;padding:2px 4px 2px 4px;border-radius:4px;">2014</span>
+                                            <span
+                                            style="padding:0px 2px 0px 2px;"></span> <span class="gem-element-round-container" style="border:1px solid #E6E6E6;color:#808080;background-color:#E6E6E6;padding:2px 4px 2px 4px;border-radius:4px;">TV-14</span>
+                                            <span
+                                              style="padding:0px 2px 0px 2px;"></span> <span class="gem-element-round-container" style="border:1px solid #E6E6E6;color:#808080;background-color:#E6E6E6;padding:2px 4px 2px 4px;border-radius:4px;">6 Seasons </span>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="gem-p1" align="left" style="color:#221F1F;padding-top:12px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:14px;line-height:18px;letter-spacing:-0.25px;">A forensics expert who wakes from a coma with amazing new powers squares off against
+                                            forces threatening the city in this live-action superhero romp.</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table class="gem-dual-buttons-table " width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="gem-dual-buttons-outer-cell _none" style="padding-top:16px;" align="center">
+                                            <table class="gem-dual-buttons-table " width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="48%">
+                                                    <table class="gem-dual-buttons shell-1 " bgcolor="#E50914" style="border:solid 2px #E50914;border-radius:4px;text-decoration:none;width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="gem-h5 gem-button-copy" style="color:#ffffff;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;" align="center" height="42">
+                                                            <a href="https://www.netflix.com/watch/80027042?trkid=13710079&amp;MSG_TITLE=80027042&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_0_PLAY" style="color:#ffffff;text-decoration:none;color:inherit;padding:13px 40px;text-align:center;display:inline-block;">
+                                                              <img class="image-icon-play" src="https://assets.nflxext.com/us/email/gem/icons/icon_play_white.png" height="11" border="0" style="display:inline;height:11px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">&nbsp;Play</a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                  <td width="3%">
+                                                    <img src="https://assets.nflxext.com/us/email/spacer.gif" width="3%" style="-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;">
+                                                  </td>
+                                                  <td width="48%">
+                                                    <table class="gem-dual-buttons shell-2 " bgcolor="#E8EDF0" style="border:solid 2px #E8EDF0;border-radius:4px;text-decoration:none;width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="gem-h5 gem-button-copy" style="color:#333333;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;" align="center" height="42">
+                                                            <a href="https://www.netflix.com/title/80027042?trkid=13710079&amp;MSG_TITLE=80027042&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_0_VIEW_EP" style="color:#333333;text-decoration:none;color:inherit;padding:13px 40px;text-align:center;display:inline-block;">View Episodes</a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="gem-module-title-card-table" align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-module-top-picks-image-cell content-padding outer-radius" style="padding-top:20px;padding-left:20px;padding-right:20px;border-radius:8px;" align="center">
+                            <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-date-copy-cell _none" align="left" style="padding-top:20px; color:#221F1F;">
+                                    <table align="left" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <img class="image-icon-rewatchBlue" src="https://assets.nflxext.com/us/email/gem/icons/icon_rewatch_blue_v2.png" height="28" border="0" style="display:inline;height:28px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;">
+                                          </td>
+                                          <td class="gem-date-copy gem-h5" style="padding:0 0 0px 8px;vertical-align:middle;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;">Watch Again</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- Spacer -->
+                            <table width="100%" class="" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="spacer-2 spacer" style="padding: 8px 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- End Spacer -->
+                            <table class="gem-component-image " width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-component-image-cell _none" align="center" style="padding-top:0px;">
+                                    <a href="https://www.netflix.com/title/80212245?trkid=13710079&amp;MSG_TITLE=80212245&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_1_IMAGE" target="_blank" style="color:inherit;">
+                                      <img alt="The Dragon Prince" src="https://dnm.nflximg.net/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAAC8MR8bigB1jxUbrWbKOW0Ndj-G9F-643cDkwX3tot-tEoybsrzzEO-hUWhsQ1qvA1Y11QSy56zf2pHk8aFYCdBqRjO0eoKAia8Sz7Kzu5hGQtVLwbncV5mCgNZwbBg.jpg?r=a3e" width="460" border="0" style="border-radius:4px 4px 4px 4px;box-shadow:0 10px 15px -10px #000000; max-width: 460px;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table class="gem-copy-table " align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-copy gem-h3 _none" align="left" style="padding-top:16px; color:#221F1F;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:24px;line-height:29px;letter-spacing:-0.5px;">The Dragon Prince</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table class="gem-module-top-picks-cell-inner-table" align="center" width="100%" style="border-radius:0px 0px 8px 8px;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-module-vert-body-cell" style="padding-bottom:24px;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="gem-p1" align="left" style="color:#221F1F;padding-top:12px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:14px;line-height:18px;letter-spacing:-0.25px;"> <span class="gem-element-round-container" style="border:1px solid #E6E6E6;color:#808080;background-color:#E6E6E6;padding:2px 4px 2px 4px;border-radius:4px;">2018</span>
+                                            <span
+                                            style="padding:0px 2px 0px 2px;"></span> <span class="gem-element-round-container" style="border:1px solid #E6E6E6;color:#808080;background-color:#E6E6E6;padding:2px 4px 2px 4px;border-radius:4px;">TV-Y7</span>
+                                            <span
+                                              style="padding:0px 2px 0px 2px;"></span> <span class="gem-element-round-container" style="border:1px solid #E6E6E6;color:#808080;background-color:#E6E6E6;padding:2px 4px 2px 4px;border-radius:4px;">3 Seasons </span>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="gem-p1" align="left" style="color:#221F1F;padding-top:12px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:14px;line-height:18px;letter-spacing:-0.25px;">An extraordinary discovery inspires two human princes and an elven assassin to
+                                            team up on an epic quest to bring peace to their warring lands.</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table class="gem-dual-buttons-table " width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="gem-dual-buttons-outer-cell _none" style="padding-top:16px;" align="center">
+                                            <table class="gem-dual-buttons-table " width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="48%">
+                                                    <table class="gem-dual-buttons shell-1 " bgcolor="#E50914" style="border:solid 2px #E50914;border-radius:4px;text-decoration:none;width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="gem-h5 gem-button-copy" style="color:#ffffff;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;" align="center" height="42">
+                                                            <a href="https://www.netflix.com/watch/80212245?trkid=13710079&amp;MSG_TITLE=80212245&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_1_PLAY" style="color:#ffffff;text-decoration:none;color:inherit;padding:13px 40px;text-align:center;display:inline-block;">
+                                                              <img class="image-icon-play" src="https://assets.nflxext.com/us/email/gem/icons/icon_play_white.png" height="11" border="0" style="display:inline;height:11px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">&nbsp;Play</a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                  <td width="3%">
+                                                    <img src="https://assets.nflxext.com/us/email/spacer.gif" width="3%" style="-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;">
+                                                  </td>
+                                                  <td width="48%">
+                                                    <table class="gem-dual-buttons shell-2 " bgcolor="#E8EDF0" style="border:solid 2px #E8EDF0;border-radius:4px;text-decoration:none;width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="gem-h5 gem-button-copy" style="color:#333333;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;" align="center" height="42">
+                                                            <a href="https://www.netflix.com/title/80212245?trkid=13710079&amp;MSG_TITLE=80212245&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_1_VIEW_EP" style="color:#333333;text-decoration:none;color:inherit;padding:13px 40px;text-align:center;display:inline-block;">View Episodes</a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="gem-module-title-card-table" align="center" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-module-top-picks-image-cell content-padding outer-radius" style="padding-top:20px;padding-left:20px;padding-right:20px;border-radius:8px;" align="center">
+                            <table class="gem-copy-table" align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-date-copy-cell _none" align="left" style="padding-top:20px; color:#221F1F;">
+                                    <table align="left" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <img class="image-icon-rewatchBlue" src="https://assets.nflxext.com/us/email/gem/icons/icon_rewatch_blue_v2.png" height="28" border="0" style="display:inline;height:28px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;">
+                                          </td>
+                                          <td class="gem-date-copy gem-h5" style="padding:0 0 0px 8px;vertical-align:middle;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;">Watch Again</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- Spacer -->
+                            <table width="100%" class="" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="spacer-3 spacer" style="padding: 8px 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- End Spacer -->
+                            <table class="gem-component-image " width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-component-image-cell _none" align="center" style="padding-top:0px;">
+                                    <a href="https://www.netflix.com/title/70281312?trkid=13710079&amp;MSG_TITLE=70281312&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_2_IMAGE" target="_blank" style="color:inherit;">
+                                      <img alt="The Blacklist" src="https://dnm.nflximg.net/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAACyA81Luw7oziIeTGXu6hXi6txZdTxMRh_t-73gY7dAvrXEwNoLYjlUly4UdJRaffnRpG8hH0d4W06K5MmYnAz7q4Ov8e.jpg?r=425" width="460" border="0" style="border-radius:4px 4px 4px 4px;box-shadow:0 10px 15px -10px #000000; max-width: 460px;display:block;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table class="gem-copy-table " align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-copy gem-h3 _none" align="left" style="padding-top:16px; color:#221F1F;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:24px;line-height:29px;letter-spacing:-0.5px;">The Blacklist</td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <table class="gem-module-top-picks-cell-inner-table" align="center" width="100%" style="border-radius:0px 0px 8px 8px;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-module-vert-body-cell" style="padding-bottom:24px;">
+                                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="gem-p1" align="left" style="color:#221F1F;padding-top:12px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:14px;line-height:18px;letter-spacing:-0.25px;"> <span class="gem-element-round-container" style="border:1px solid #E6E6E6;color:#808080;background-color:#E6E6E6;padding:2px 4px 2px 4px;border-radius:4px;">2019</span>
+                                            <span
+                                            style="padding:0px 2px 0px 2px;"></span> <span class="gem-element-round-container" style="border:1px solid #E6E6E6;color:#808080;background-color:#E6E6E6;padding:2px 4px 2px 4px;border-radius:4px;">TV-14</span>
+                                            <span
+                                              style="padding:0px 2px 0px 2px;"></span> <span class="gem-element-round-container" style="border:1px solid #E6E6E6;color:#808080;background-color:#E6E6E6;padding:2px 4px 2px 4px;border-radius:4px;">6 Seasons </span>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="gem-p1" align="left" style="color:#221F1F;padding-top:12px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:14px;line-height:18px;letter-spacing:-0.25px;">After turning himself in, a brilliant fugitive offers to help the FBI bag other
+                                            baddies, but only if rookie profiler Elizabeth Keen is his partner.</td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                    <table class="gem-dual-buttons-table " width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="gem-dual-buttons-outer-cell _none" style="padding-top:16px;" align="center">
+                                            <table class="gem-dual-buttons-table " width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                              <tbody>
+                                                <tr>
+                                                  <td width="48%">
+                                                    <table class="gem-dual-buttons shell-1 " bgcolor="#E50914" style="border:solid 2px #E50914;border-radius:4px;text-decoration:none;width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="gem-h5 gem-button-copy" style="color:#ffffff;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;" align="center" height="42">
+                                                            <a href="https://www.netflix.com/watch/70281312?trkid=13710079&amp;MSG_TITLE=70281312&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_2_PLAY" style="color:#ffffff;text-decoration:none;color:inherit;padding:13px 40px;text-align:center;display:inline-block;">
+                                                              <img class="image-icon-play" src="https://assets.nflxext.com/us/email/gem/icons/icon_play_white.png" height="11" border="0" style="display:inline;height:11px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">&nbsp;Play</a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                  <td width="3%">
+                                                    <img src="https://assets.nflxext.com/us/email/spacer.gif" width="3%" style="-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;">
+                                                  </td>
+                                                  <td width="48%">
+                                                    <table class="gem-dual-buttons shell-2 " bgcolor="#E8EDF0" style="border:solid 2px #E8EDF0;border-radius:4px;text-decoration:none;width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                                                      <tbody>
+                                                        <tr>
+                                                          <td class="gem-h5 gem-button-copy" style="color:#333333;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;" align="center" height="42">
+                                                            <a href="https://www.netflix.com/title/70281312?trkid=13710079&amp;MSG_TITLE=70281312&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_2_VIEW_EP" style="color:#333333;text-decoration:none;color:inherit;padding:13px 40px;text-align:center;display:inline-block;">View Episodes</a>
+                                                          </td>
+                                                        </tr>
+                                                      </tbody>
+                                                    </table>
+                                                  </td>
+                                                </tr>
+                                              </tbody>
+                                            </table>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- Spacer -->
+                    <table width="100%" class="" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="spacer-4 spacer" style="padding: 16px 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- End Spacer -->
+
+                    <!-- Spacer -->
+                    <table width="100%" class="" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="spacer-5 spacer" style="padding: 4px 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- End Spacer -->
+                    <table class="gem-copy-table " align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="gem-copy gem-h4 content-padding" align="left" style="padding-top:24px; color:#221F1F;padding-left:20px;padding-right:20px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:18px;line-height:22px;letter-spacing:-0.35px;">Top Picks for You</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- Spacer -->
+                    <table width="100%" class="" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="spacer-6 spacer" style="padding: 8px 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- End Spacer -->
+                    <table id="gem-title-row-table-table" class="gem-title-row-table-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-title-row-td content-padding" style="padding-left:20px;padding-right:20px;">
+                            <table class="gem-title-row-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-title-row ">
+                                    <a href="https://www.netflix.com/title/80027042?trkid=13710079&amp;MSG_TITLE=80027042&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_ROW_1_BOX_0" style="color:inherit;">
+                                      <img alt="The Flash" src="https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAAC2Z2HW0vKlUsO8E9UetYf1779oXDE9t6VqoKyOdPyiXNbCO81dj4niFjfXa6Gwux-kWNJJkIgttpIZHGPpx6y3D4saz69Ca7gUBY6MzPj2-HmWPGyGNyu46in4GfOSWy4as.jpg?r=417" width="149.3333333333" style="border-collapse:collapse;display:block;border-radius:8px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                  <td class="gem-title-row-spacer  " width="6">&nbsp;</td>
+                                  <td class="gem-title-row ">
+                                    <a href="https://www.netflix.com/title/81116168?trkid=13710079&amp;MSG_TITLE=81116168&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_ROW_1_BOX_1" style="color:inherit;">
+                                      <img alt="History 101" src="https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAAC3rCOzBwyE_Q8hdNqdFdMf6P5E1hxAHmT1Tj7i0PDGtnn2QyEbvWfcbZMweGPoIPikFTSz3bPSRCedUzre_Yhr-5CdgVCtL7qQyKqxGn6ncP0qeAMQ3Rj9VWfJzfog.jpg?r=b1f" width="149.3333333333" style="border-collapse:collapse;display:block;border-radius:8px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                  <td class="gem-title-row-spacer  " width="6">&nbsp;</td>
+                                  <td class="gem-title-row ">
+                                    <a href="https://www.netflix.com/title/70142405?trkid=13710079&amp;MSG_TITLE=70142405&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_ROW_1_BOX_2" style="color:inherit;">
+                                      <img alt="Avatar: The Last Airbender" src="https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAAC8fD-zJea7VSZtnjaEDFQY89dyx29n3puVCm5AIYYUIN501IMgylpQMZf61JUqa5DqlsSY6vVDSy_EageUZSRoWgxymO.jpg?r=b52" width="149.3333333333" style="border-collapse:collapse;display:block;border-radius:8px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="gem-copy-table " align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="gem-copy gem-h4 content-padding" align="left" style="padding-top:24px; color:#221F1F;padding-left:20px;padding-right:20px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:18px;line-height:22px;letter-spacing:-0.35px;">Also Recently Added</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- Spacer -->
+                    <table width="100%" class="" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="spacer-7 spacer" style="padding: 8px 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- End Spacer -->
+                    <table id="gem-title-row-table-table" class="gem-title-row-table-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-title-row-td content-padding" style="padding-left:20px;padding-right:20px;">
+                            <table class="gem-title-row-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-title-row ">
+                                    <a href="https://www.netflix.com/title/81248748?trkid=13710079&amp;MSG_TITLE=81248748&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_ROW_2_BOX_0" style="color:inherit;">
+                                      <img alt="The Lovebirds" src="https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAACxUteRW6JKonQCnZQnzMJGAYwvC8uoF7kZvRb22w-FYOz7BFZcIt31Te-87eaoHAd8_v6mLM_bDopzsBAEPUERSCovaESgVMrw-DQxRBDjg1dYy5KnpTPwV9fidkaw.jpg?r=6f8" width="149.3333333333" style="border-collapse:collapse;display:block;border-radius:8px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                  <td class="gem-title-row-spacer  " width="6">&nbsp;</td>
+                                  <td class="gem-title-row ">
+                                    <a href="https://www.netflix.com/title/81008221?trkid=13710079&amp;MSG_TITLE=81008221&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_ROW_2_BOX_1" style="color:inherit;">
+                                      <img alt="Into the Night" src="https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAAC6oKn6GMYM7HPDwsKgizGvf1TcvBX7OXSCvSXxIjoFwJKB1L1v4xZfLBKaznx-RpydX_-TE8MLUvq7U1PbYGnP00CAGykEM7zABCMy6ObZU6UtAA-f_u0AdkqwdTsw.jpg?r=ab6" width="149.3333333333" style="border-collapse:collapse;display:block;border-radius:8px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                  <td class="gem-title-row-spacer  " width="6">&nbsp;</td>
+                                  <td class="gem-title-row ">
+                                    <a href="https://www.netflix.com/title/80993591?trkid=13710079&amp;MSG_TITLE=80993591&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_ROW_2_BOX_2" style="color:inherit;">
+                                      <img alt="White Lines" src="https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAACwy3uHyrlJTSivShx-MywlsGQcn4DLMMExFaHDe6cQAyuy5ss9eUkNTfwzNhni0qLy9b5Lu6wkvZO_BWOnQ_dySeFoyrUCEgv6louDJxCV0YvVvFsidSOi1ydNVScw.jpg?r=adf" width="149.3333333333" style="border-collapse:collapse;display:block;border-radius:8px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="gem-copy-table " align="left" style="width:100%;border-spacing:0;" cellpadding="0" cellspacing="0" border="0">
+                      <tbody>
+                        <tr>
+                          <td class="gem-copy gem-h4 content-padding" align="left" style="padding-top:24px; color:#221F1F;padding-left:20px;padding-right:20px;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:18px;line-height:22px;letter-spacing:-0.35px;">Trending Now</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- Spacer -->
+                    <table width="100%" class="" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="spacer-8 spacer" style="padding: 8px 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                    <!-- End Spacer -->
+                    <table id="gem-title-row-table-table" class="gem-title-row-table-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-title-row-td content-padding" style="padding-left:20px;padding-right:20px;">
+                            <table class="gem-title-row-table" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-title-row ">
+                                    <a href="https://www.netflix.com/title/80074249?trkid=13710079&amp;MSG_TITLE=80074249&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_ROW_3_BOX_0" style="color:inherit;">
+                                      <img alt="The Last Kingdom" src="https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAAC4bKyxraXRE53Ysryxz2G6ELpB2U3qd5-pfzVVvf9-V1U-fA5hvSklKO2DkjXi2l9HNf_xv9jKRgrPx8VZpczIWaulz-0kDjRqF4lZOGY2RDRxEpz1ktiqG5abfKUWvWQGyU87cll81_l6tWnkVP2nA_l19QJ68.jpg?r=73c" width="149.3333333333" style="border-collapse:collapse;display:block;border-radius:8px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                  <td class="gem-title-row-spacer  " width="6">&nbsp;</td>
+                                  <td class="gem-title-row ">
+                                    <a href="https://www.netflix.com/title/70158331?trkid=13710079&amp;MSG_TITLE=70158331&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_ROW_3_BOX_1" style="color:inherit;">
+                                      <img alt="Star Trek: Voyager" src="https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAAC3isBjcQJJBMUXT2x6iFo9x-J_2eEl0eY5t1e6emxeDwPH-MlZyd6tIefctWKgzv8V-9OplhHzJGWORu648mkXyosvoM.jpg?r=447" width="149.3333333333" style="border-collapse:collapse;display:block;border-radius:8px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                  <td class="gem-title-row-spacer  " width="6">&nbsp;</td>
+                                  <td class="gem-title-row ">
+                                    <a href="https://www.netflix.com/title/80191008?trkid=13710079&amp;MSG_TITLE=80191008&amp;lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=TITLE_ROW_3_BOX_2" style="color:inherit;">
+                                      <img alt="Parasyte: The Maxim" src="https://dnm.nflximg.net/api/v6/evlCitJPPCVCry0BZlEFb5-QjKc/AAAAC3nwfEqgxKzmg5aJoQgwV1C2pF7ikidM1SAI1zibbUPx2uC_ebbpwa9u25Yb929EevTK-e4Wwzrd3Tz0zCKfo0J66IUG.jpg?r=d56" width="149.3333333333" style="border-collapse:collapse;display:block;border-radius:8px;-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table class="gem-single-button-shell button-mobile-flex " width="100%" align="center" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="gem-single-button button-1-shell content-padding" style="padding-top:40px;padding-left:20px;padding-right:20px;" align="center">
+                            <table class="gem-single-button button-1-table " cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;width:100%;">
+                              <tbody>
+                                <tr>
+                                  <td class="gem-single-button button-1-text gem-h5 button-text-light" style="background-color: #e50914; border:solid 1px #e50914;color:rgb(255, 255, 255);font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;moz-border-radius:4px;-webkit-border-radius:4px;border-radius:4px;text-decoration:none;text-align:center;padding:13px 0 13px 0;width:100%;">
+                                    <a class="gem-single-button gem-filled-button-a button-text-light gem-h5" href="https://www.netflix.com/browse?lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=URL_HOME_2" style="text-decoration:none;display:block;font-family:NetflixSans-Bold, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:700;font-size:14px;line-height:17px;letter-spacing:-0.2px;color:inherit;color:rgb(255, 255, 255);">View All TV Shows &amp; Movies</a>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <table id="gem-footer" class="gem-footer mobile-100w" bgcolor="#FFFFFF" width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                      <tbody>
+                        <tr>
+                          <td class="outside-padding" style="padding-top:40px;padding-left:40px;padding-right:40px;">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="icon" width="1%" valign="top" style="padding-right:22px;">
+                                    <a href="https://www.netflix.com/browse?lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=URL_HOME_3" target="_blank" style="color:inherit;">
+                                      <img alt="Netflix" src="https://assets.nflxext.com/us/email/gem/nflx.png" width="24" border="0" style="-ms-interpolation-mode:bicubic;border:none;outline:none;border-collapse:collapse;border-style:none;">
+                                    </a>
+                                  </td>
+                                  <td>
+                                    <table class="footer-shell" width="100%" valign="top" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                                      <tbody>
+                                        <tr>
+                                          <td class="gem-p1 questions" style="font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;font-size:14px;line-height:18px;letter-spacing:-0.25px;color:rgb(169, 166, 166);">Questions? Call 1-844-505-2993</td>
+                                        </tr>
+                                        <tr>
+                                          <td class="gem-legal address" style="font-size:11px;line-height:14px;letter-spacing:-0.1px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;color:rgb(169, 166, 166);text-decoration:none;cursor:text;color:rgb(169, 166, 166);padding-bottom:20px;"> <span class="hide-link" style="text-decoration:none;cursor:text;color:rgb(169, 166, 166);"><a href="https://www.netflix.com/browse?lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=URL_HOME_4" style="text-decoration:none;cursor:text;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">100 Winchester Circle, Los Gatos, CA 95032, U.S.A.</a></span>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="footer-links" style="padding-bottom:20px;color:rgb(169, 166, 166);">
+                                            <a class="footer-link nowrap" href="#" style="font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-size:12px;line-height:20px;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">Unsubscribe</a>
+                                            <br>
+                                            <a class="footer-link nowrap" href="https://www.netflix.com/TermsOfUse?lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=URL_TERMS" style="font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-size:12px;line-height:20px;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">Terms of Use</a>
+                                            <br>
+                                            <a class="footer-link nowrap" href="https://www.netflix.com/PrivacyPolicy?lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=URL_PRIVACY" style="font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-size:12px;line-height:20px;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">Privacy</a>
+                                            <br>
+                                            <a class="footer-link nowrap" href="https://help.netflix.com/help?lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=URL_HELP_3" style="font-family:NetflixSans-Medium, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:500;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-size:12px;line-height:20px;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">Help Center</a>
+                                          </td>
+                                        </tr>
+                                        <tr>
+                                          <td class="gem-legal mail-to" style="font-size:11px;line-height:14px;letter-spacing:-0.1px;font-family:NetflixSans-Light, Helvetica, Roboto, Segoe UI, sans-serif;font-weight:300;color:rgb(169, 166, 166);">This message was mailed to <span class="hide-link" style="text-decoration:none;cursor:text;color:rgb(169, 166, 166);"><a href="https://www.netflix.com/browse?lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=URL_HOME_5" style="text-decoration:none;cursor:text;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">[hello@SmilesDavis.yeah]</a></span> by
+                                            Netflix as part of your Netflix&nbsp;membership.
+                                            <br>SRC:
+                                            <a href="https://help.netflix.com/help?lnktrk=EMP&amp;g=5890331089E7B85D094EAB64EA5E614564528FB3&amp;lkid=URL_HELP_5" class="footer-no-link hide-link" style="text-decoration:none;cursor:text;text-decoration:underline;color:rgb(169, 166, 166);color:inherit;">65005_en_US</a>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- Spacer -->
+                            <table width="100%" class="" cellpadding="0" cellspacing="0" border="0" style="border-spacing:0;">
+                              <tbody>
+                                <tr>
+                                  <td class="spacer-9 spacer" style="padding: 40px 0 0 0;font-size:0;line-height:0;">&nbsp;</td>
+                                </tr>
+                              </tbody>
+                            </table>
+
+                            <!-- End Spacer -->
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Fix for Gmail on iOS -->
+    <div class="mobile-hide-max gmail-fix-no-inline" style="white-space:nowrap; font:15px courier; line-height:0;">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</div>
+  </body>
+</html>
